@@ -4,7 +4,7 @@ node_js:
   - 12
 install:
   - npm i
-  - npm test
+  - CI=true npm run coverage
 branches:
   only:
     - master
