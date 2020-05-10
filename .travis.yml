@@ -1,10 +1,8 @@
 language: node_js
 node_js:
-  - 10.0.0
   - 12
-  - 14
-  - node
 install:
+  - npm i
   - npm test
 branches:
   only:
