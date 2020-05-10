@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ridakaddir/react-test-library-example.svg?branch=master)](https://travis-ci.org/ridakaddir/react-test-library-example)
+[![Build Status](https://travis-ci.com/ridakaddir/react-test-library-example.svg?token=Hpsxz9NTNEg9aGtwmDPL&branch=master)](https://travis-ci.com/ridakaddir/react-test-library-example)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ridakaddir_react-test-library-example&metric=alert_status)](https://sonarcloud.io/dashboard?id=ridakaddir_react-test-library-example)
 
