@@ -2,6 +2,7 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ridakaddir_react-test-library-example&metric=alert_status)](https://sonarcloud.io/dashboard?id=ridakaddir_react-test-library-example)
 
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ridakaddir_react-test-library-example&metric=coverage)](https://sonarcloud.io/dashboard?id=ridakaddir_react-test-library-example)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
