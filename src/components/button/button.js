@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-const button = ({ label, onClick }) => {
+const button = ({ children, onClick }) => {
   return (
     <Button data-testid="button" onClick={onClick}>
-      {label}
+      {children}
     </Button>
   );
 };

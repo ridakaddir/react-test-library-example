@@ -13,15 +13,13 @@ it("renders without crashing", () => {
 });
 
 it("renders button correctly", () => {
-  const { getByTestId } = render(<Button label="click me please" />);
+  const { getByTestId } = render(<Button>click me please</Button>);
   expect(getByTestId("button")).toHaveTextContent("click me please");
 });
 
 it("button click works", () => {
   const handleClick = jest.fn();
-  const { getByTestId } = render(
-    <Button onClick={handleClick} label="click me please" />
-  );
+  const { getByTestId } = render(<Button onClick={handleClick} />);
   getByTestId("button").click();
   expect(handleClick).toHaveBeenCalledTimes(1);
 });
