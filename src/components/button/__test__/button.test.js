@@ -12,7 +12,7 @@ it("renders without crashing", () => {
   ReactDom.render(<Button />, div);
 });
 
-it("renders button correctly", () => {
+it("renders button correctly ", () => {
   const { getByTestId } = render(<Button>click me please</Button>);
   expect(getByTestId("button")).toHaveTextContent("click me please");
 });
