@@ -1,3 +1,4 @@
+dist: trusty
 language: node_js
 node_js:
   - 12
@@ -7,3 +8,13 @@ install:
 branches:
   only:
     - master
+
+addons:
+  sonarcloud:
+    organization: "ridakaddir"
+    token:
+      secure: "cwzOTyo7bk+oyQTu5Y+jEthg27p2soapUAa8NMQ6lKo/xN+UME60uT8PFGDvaybZ9dTsjtht2SenDd+qGICyki0ON4lyN0Ex8e6qwsrdnX0YTZVwugrAYIEh33VUCUXdROX+bb0DCCgvjrfrgIJU/KXIkF9AiwC7VtOheaYAMPJgG1IaGTk0D13M15GE2BuCptHEP8HseauH1D74kTdY56NBf00sP606DtC1/5M8XpWMxDS591gTyuARNt6kbe9K09Y48W7Iqfbsll9Ha/dC9GbNlXkEptXc6wYY+Gb8aRoYtG2GbjWbE82cW2QzsPRRZNM7vGtAmlGIF0z6uasiygwWXYmNuYIIRHqfeCdmpC9cIWRMji16jPm2VlUkCBad2WDK03Uxe7ZLvsfGOT+L9JyRGrDae45r6L4faHFxIVUfMMU0eqBnVJsGEvWvMVOBvVx2h7qcMTvvCrV4YmassdWS0V8DzoT1n3vEqXeJsifoMWu8P1N9WN9z4gmXAX4/Z73P1NLeQnaFfsBDI/dynRk42EzXpb6GBSUVTBx+xoewybNI690wKUEsrkdmzR2rmw+K6ow+CgXICDyZNgGIyepUOQaVOjnTIGyb8gLqqMMykOTupbC6FGNWeZOn95XUsXqq7CNFOxv3W84sZWnAmawzRKk5fS2K/tV/B7aHT58=" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
