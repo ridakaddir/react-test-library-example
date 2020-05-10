@@ -4,13 +4,8 @@ import Button from "./components/button/button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button
-          onClick={() => console.log("clicked")}
-          label="Click me please"
-        />
-      </header>
+    <div data-testid="app" className="App">
+      <Button onClick={() => console.log("clicked")} label="Click me please" />
     </div>
   );
 }
