@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/ridakaddir/react-test-library-example.svg?branch=master)](https://travis-ci.org/ridakaddir/react-test-library-example)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ridakaddir_react-test-library-example&metric=alert_status)](https://sonarcloud.io/dashboard?id=ridakaddir_react-test-library-example)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
